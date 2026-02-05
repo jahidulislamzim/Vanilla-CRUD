@@ -35,6 +35,7 @@ Vanilla-CRUD/
 ├── README.md
 ├── script.js
 └── styles.css
+```
 ---
 
 ## Validation Rules
