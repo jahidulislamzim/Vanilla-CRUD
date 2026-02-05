@@ -27,6 +27,7 @@ This project demonstrates full **CRUD (Create, Read, Update, Delete)** functiona
 
 ## Project Structure
 
+```text
 Vanilla-CRUD/
 ├── Assets/
 │   └── display.png
@@ -34,9 +35,6 @@ Vanilla-CRUD/
 ├── README.md
 ├── script.js
 └── styles.css
-
-
-
 ---
 
 ## Validation Rules
