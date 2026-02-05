@@ -65,18 +65,29 @@ function onDelete(td) {
         resetForm();
     }
 }
+
 function validate() {
-    isValid = true;
-    if (document.getElementById("fullName").value == "") {
+    let isValid = true;
+
+    if (document.getElementById("fullName").value.trim() === "") {
         isValid = false;
         document.getElementById("fullNameValidationError").classList.remove("hide");
     } else {
-        isValid = true;
-        if (!document.getElementById("fullNameValidationError").classList.contains("hide"))
-            document.getElementById("fullNameValidationError").classList.add("hide");
+        document.getElementById("fullNameValidationError").classList.add("hide");
     }
+
+    let salary = document.getElementById("salary").value.trim();
+
+    if (salary === "" || isNaN(salary) || Number(salary) <= 0) {
+        isValid = false;
+        document.getElementById("salaryValidationError").classList.remove("hide");
+    } else {
+        document.getElementById("salaryValidationError").classList.add("hide");
+    }
+
     return isValid;
 }
+
 
 
 
