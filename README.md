@@ -27,10 +27,14 @@ This project demonstrates full **CRUD (Create, Read, Update, Delete)** functiona
 
 ## Project Structure
 
+Vanilla-CRUD/
+├── Assets/
+│   └── display.png
 ├── index.html
-├── styles.css
+├── README.md
 ├── script.js
-└── README.md
+└── styles.css
+
 
 
 ---
